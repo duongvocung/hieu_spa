@@ -1,0 +1,45 @@
+/*under-header*/
+.under-header .under-header1 .logo img {
+  width: 170px;
+  height: 70px;
+  margin: -14px;
+  margin-left: 5px; }
+.under-header .under-header1 .menu {
+  position: relative; }
+  .under-header .under-header1 .menu ul {
+    position: absolute;
+    margin-left: 148px;
+    left: 22px; }
+    .under-header .under-header1 .menu ul li {
+      list-style-type: none;
+      display: inline;
+      margin-left: 25px; }
+      .under-header .under-header1 .menu ul li a {
+        color: black;
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: normal;
+        text-decoration: none; }
+    .under-header .under-header1 .menu ul #button-menu {
+      background-color: #fc887b;
+      color: white;
+      text-align: center;
+      width: 150px;
+      height: 48px;
+      line-height: 48px;
+      margin-left: 30px;
+      border: none; }
+
+
+
+
+/*@media (max-width: 1024px) {*/
+/*  .under-header .under-header1 .menu ul {*/
+/*    left: -61px;*/
+/*    width: 100%; }*/
+/*    .under-header .under-header1 .menu ul .icon__search-menu {*/
+/*      display: none; }*/
+/*    .under-header .under-header1 .menu ul li {*/
+/*      margin-left: 25px; } }*/
+
+/*# sourceMappingURL=style-under-header.css.map */

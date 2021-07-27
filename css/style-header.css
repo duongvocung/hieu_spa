@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+body{
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main {
+  background-color: #2b3840;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'Lato', sans-serif !important;
+  font-size: 14px; }
+  .main .login-header {
+    text-align: end;
+    margin-left: 26px; }
+  .main .top-header {
+    color: #ffffff;
+    display: flex;
+    padding: 0px; }
+    .main .top-header .nav-top-header {
+      display: flex;
+      float: left;
+      font-weight: 400; }
+      .main .top-header .nav-top-header #content2 {
+        margin-left: 28px;
+        margin-right: 11px;
+        color: #fc887b; }
+      .main .top-header .nav-top-header .content1 {
+        margin-left: 5px; }
+      .main .top-header .nav-top-header .content3 {
+        margin-left: 33px; }
+        .main .top-header .nav-top-header .content3 span #content3 {
+          padding-right: 9px;
+          color: #fc887b; }
+    .main .top-header .login-header .login {
+      margin-right: 9px; }
+      .main .top-header .login-header .login .content {
+        margin-right: 13px; }
+      .main .top-header .login-header .login .name-login {
+        margin-right: 19px; }
+
+.block-threeicon {
+  display: none !important; }
+
+.nav__mobie-close {
+  font-size: 25px;
+  color: #666;
+  position: absolute;
+  top: 1rem;
+  right: 1rem; }
+
+#nav-mobie-input:checked ~ .nav__mobile {
+  transform: translateX(0%);
+  opacity: 1; }
+
+.nav__mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: white;
+  z-index: 10000;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform linear 0.2s, opacity linear 0.2s; }
+
+.nav__mobile-list {
+  margin-top: 24px; }
+
+.nav__mobile-link {
+  text-decoration: none !important;
+  color: #333;
+  display: block;
+  padding: 8px 0;
+  font-size: 1.4rem; }
+
+
+
+/*@media (max-width: 1024px) {*/
+/*  .block {*/
+/*    display: block !important;*/
+/*    font-size: 25px;*/
+/*    display: none !important; } }*/
+
+

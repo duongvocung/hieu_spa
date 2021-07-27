@@ -1,0 +1,48 @@
+
+.main-category{
+  border-bottom: 1px solid #e5e5e5;
+  .category-top{
+    border-right: 1px solid #e5e5e5;
+    .item {
+      height: 180px;
+      border-left: 1px solid  #e5e5e5;
+      text-align: center;
+      padding-top: 42px;
+      .icon__category-top {
+        font-size: 55px;
+        color: #2b3840;
+      }
+      .content__item-category {
+        color: #2b3840;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 6px;
+      }
+      &:hover {
+        background-color: #fc887b;
+        .icon__category-top, .content__item-category{
+          color: white;
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

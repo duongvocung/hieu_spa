@@ -1,0 +1,55 @@
+/*slideshow*/
+.slide-show {
+  padding: 10%;
+  margin-top: 33px;
+  background-image: url("http://demo12.cmsmart.net/retreatclub_tf/home3/wp-content/uploads/2020/07/banner-home-3-.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-size: cover;
+  height: 750px; }
+  .slide-show img {
+    width: 100%;
+    margin-top: 20px; }
+  .slide-show .content-slide-show {
+    width: 100%;
+    margin-top: 46px;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    top: 0;
+    left: 0; }
+    .slide-show .content-slide-show h3 {
+      font-size: 30px;
+      font-weight: 700; }
+    .slide-show .content-slide-show h2 {
+      font-family: "Playfair Display", Sans-serif;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 73px; }
+    .slide-show .content-slide-show .content__slideshow-block-sreach {
+      max-width: 710px;
+      padding: 0;
+      border-bottom: 0; }
+      .slide-show .content-slide-show .content__slideshow-block-sreach input, .slide-show .content-slide-show .content__slideshow-block-sreach select, .slide-show .content-slide-show .content__slideshow-block-sreach button {
+        height: 50px;
+        width: 250px;
+        border: none;
+        margin-top: 24px;
+        outline: none;
+        font-size: 14px;
+        font: inherit; }
+      .slide-show .content-slide-show .content__slideshow-block-sreach input {
+        padding: 0 25px;
+        color: #797979;
+        border-right: solid 4px; }
+      .slide-show .content-slide-show .content__slideshow-block-sreach select {
+        margin-left: -7px;
+        padding: 0 25px; }
+      .slide-show .content-slide-show .content__slideshow-block-sreach button {
+        margin-left: -5px;
+        background-color: #2b3840;
+        color: white;
+        width: 210px; }
+
+/*# sourceMappingURL=slide.css.map */
