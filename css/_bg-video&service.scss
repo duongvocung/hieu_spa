@@ -1,0 +1,101 @@
+.main__bg-video{
+  position: relative;
+  margin-top: 82px;
+  .bg-video{
+    background: url("../image/bg-video.jpg");
+    width: 100%;
+    height: 570px;
+  }
+  .content__bg-video{
+    bottom: 27%;
+    left: 33%;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+    span{
+      position: absolute;
+      top: -61%;
+      left: 39%;
+    }
+    .text__bg-video{
+
+    }
+  }
+}
+//titile under bg-video
+.text__under-bg-video{
+  h2{
+    color: #2b3840;
+    font-size: 34px;
+    font-weight: 600;
+  }
+  img{}
+  .text-content__under-bg-video{
+    color: #797979;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 16px;
+    padding: 0px 241px;
+  }
+}
+//serviece
+.element_service{
+  margin-top: 88px;
+  padding-left: 27px;
+  .element{
+    .wapper__element{
+      .border__element{
+        width: 350px;
+        height: 280px;
+        border: 1px solid #d4d4d4;
+        padding: 20px 28px 33px;
+        position: relative;
+        .square_little-element{
+          width: 127px;
+          height: 127px;
+          background: #2b3840;
+          border: 1px solid transparent;
+          color: white;
+          margin: -50px 0 32px;
+          position: relative;
+          span{
+            font-size: 47px;
+            position: absolute;
+            top: 34%;
+            left: 30%;
+          }
+        }
+        .number__element{
+          position: absolute;
+          left: 138px;
+          top: 78px;
+          background: #fc887b;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          position: absolute;
+          text-align: center;
+          line-height: 30px;
+        }
+        .content__element{
+          text-align: left;
+          .text-head__element{
+            h5{
+              font-size: 24px;
+              font-weight: 600;
+              line-height: 1;
+              color: #2b3840;
+            }
+          }
+          .text-under__element{
+            color: #797979;
+            font-size: 16px;
+            line-height: 26px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
