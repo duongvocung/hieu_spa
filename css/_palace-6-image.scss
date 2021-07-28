@@ -384,3 +384,10 @@
   }
 }
 }
+
+.row.row-custom {
+    flex-direction: column;
+}
+div#home {
+    display:flex;
+}

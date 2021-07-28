@@ -99,3 +99,23 @@
     }
   }
 }
+.icon-back::before{
+  position: absolute;
+  content:"";
+  width: 128px;
+  height: 13px;
+  background-image: url(../image/service-line-.jpg);
+  left: -50px;
+  top: 15px;
+  z-index: 100;
+}
+.icon-back::after{
+  position: absolute;
+  content:"";
+  width: 128px;
+  height: 13px;
+  right: -80px;
+  top: 15px;
+  background-image: url(../image/service-line-.jpg);
+  z-index: 100;
+}
