@@ -2,8 +2,39 @@
   background: url("../image/places.jpg");
   width: 100%;
   height: 1516px;
+  margin-top: 73px;
 .main-place{
+  margin-bottom: 57px;
+  .nav-tabs{
+    border-bottom:none;
+    margin-top: 49px;
+    margin-left: 306px;
+    .nav-item{
+      padding: 0 11px;
+      border: none;
+      &:hover{
+        border: none!important;
+      }
+      .nav-link{
+        &:hover{
+          border: none;
+        }
+        color: white;
+        &:active {
+          background-color: #fc887b;
+          border:none;
+        }
+
+      }
+    }
+  }
+  .active{
+    background-color: #fc887b!important;
+    border: none;
+  }
   .under__place{
+    margin-top: 73px;
+
     h2{
       color: white;
       margin-top: 72px;
@@ -390,4 +421,16 @@
 }
 div#home {
     display:flex;
+}
+
+.ct{
+  margin-top: 55px;
+  padding: 0 15px;
+  margin-left: 14px;
+  .img-need-margin{
+    margin-top: 44px;
+  }
+}
+.button-place{
+
 }

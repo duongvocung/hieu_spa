@@ -1,0 +1,205 @@
+.footer{
+
+  padding-top: 65px;
+  color: #ffff;
+  background: #2b3840;
+  padding-bottom: 60px;
+  .header-footer{
+    margin-top: -12px;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #414c53;
+    .footer-logo{
+      margin-left: 22px;
+      margin-top: 7px;
+    }
+    .newsletter{
+      margin-left: 30px;
+      margin-top: 24px;
+    }
+    .footer-input{
+      margin-top: 18px;
+      margin-left: -4px;
+      input{
+        width: 330px;
+        height: 50px;
+        background:#2b3840;
+        border: 1px solid #414c53;
+        padding-left: 20px;
+      }
+      button{
+        margin-left: 27px;
+        width: 190px;
+        height: 50px;
+        background:#fc887b;
+        color: #ffff;
+        border: none;
+        i{
+          font-size: 11px;
+        }
+      }
+      button, input:focus{
+        outline: none;
+      }
+    }
+  }
+}
+.midle-footer{
+  margin-top: 45px;
+  .footer-tittle-main{
+    padding-bottom: 42px;
+    &::after{
+      width: 30px;
+      height: 5px;
+      background: url( ../image/icon-line.png);
+      content: "";
+      position: absolute;
+      top: 47px;
+    }
+  }
+  .footer-tittle{
+    margin-left: 24px;
+    .footer-tittle-text{
+      letter-spacing: 1px;
+    }
+    .footer-link{
+      padding-bottom: 26px;
+      margin-left: -13px;
+      margin-top: -2px;
+      color:#fc887b ;
+      a{
+        &:hover{
+          color: #fc887b;
+        }
+      }
+    }
+    .footer-tittle-icon{
+      ul{
+        padding-left: 0;
+        list-style-type: none;
+        li{
+          display: inline-block;
+          padding: 0 10px 0 0;
+          margin-bottom: 0;
+          a{
+            display: inline-block;
+            background: #4867aa !important;
+            border-color: #4867aa !important;
+            width: 40px;
+            height: 40px;
+            line-height: 44px;
+            color: #fff !important;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border: 1px solid #ccc;
+            padding-top: 0px;
+            text-align: center;
+            i{
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-tittle_1{
+    margin-left: 42px;
+    .footer-tittle-list{
+      padding-top: 17px;
+      margin-left: -3px;
+      ul{
+        margin-top: -18px;
+        li{
+          padding-bottom: 15px;
+          font-size: 14px;
+          i{
+            font-size: 10px;
+            margin-left: -35px;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+  .footer-tittle_2{
+    margin-left: 37px;
+    .footer-tittle-list{
+      margin-left: -3px;
+      ul{
+        li{
+          padding-bottom: 15px;
+          font-size: 15px;
+          i{
+            font-size: 10px;
+            margin-left: -35px;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+  .footer-tittle_3{
+    .footer-icon-phone{
+      margin-top: -22px;
+      i{
+        margin-right: 29px;
+        padding-bottom: 10px;
+        font-size: 29px;
+        margin-top: 23px;
+      }
+      p{
+        margin-left: 52px;
+        font-size: 22px;
+        margin-top: -10px;
+        color: #fc887b;
+      }
+
+    }
+    .footer-icon-email{
+      margin-top: -7px;
+      i{
+        margin-right: 29px;
+        padding-bottom: 21px;
+        font-size: 20px;
+        margin-top: 23px;
+      }
+      p{
+        margin-left: 52px;
+        font-size: 22px;
+        margin-top: -10px;
+        color: #fc887b;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px){
+  .header-footer{
+    text-align: center;
+  }
+  .footer-input{
+    width: 100%;
+    input{
+      width: auto;
+    }
+  }
+  .midle-footer .footer-tittle_3 .footer-icon-email p {
+    margin-left: 52px;
+    font-size: 18px;
+    margin-top: -10px;
+    color: #fc887b;
+  }
+}
+@media (max-width: 425px){
+  .header-footer{
+    text-align: center;
+  }
+  .footer .header-footer .footer-input{
+    width: 100%;
+    input{
+      width: 300px;
+    }
+    button{
+      margin-top: 10px;
+    }
+  }
+}

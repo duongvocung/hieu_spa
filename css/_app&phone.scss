@@ -1,0 +1,59 @@
+.app-phone{
+  width: 100%;
+  background-image: url(../image/AppDownload.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 72px;
+  .row_app-phone{
+    display: flex;
+    .wapper__app-phone{
+
+        img{
+          width: 100%;
+          vertical-align: middle;
+          display: inline-block;
+        }
+
+      .element_right_app-phone{
+        margin-top: 256px;
+        margin-left: 12px;
+        .img-app{
+          padding-bottom: 10px;
+          display: flex;
+          .google_play{
+            img{
+              width: 100%;
+            }
+          }
+          .iphone{
+            margin-left: 8px;
+            img{
+              width: 100%;
+            }
+          }
+        }
+        .content-text_app-phone{
+          padding-bottom: 10px;
+          h1{
+            font-size: 44px;
+            font-weight: 700;
+            letter-spacing: 1.4px;
+          }
+          p{
+            color: #fc887b;
+            line-height:2;
+          }
+
+        }
+        .text-app-title{
+          padding-bottom: 10px;
+          p{
+            font-size: 16px;
+          }
+        }
+      }
+  }
+
+  }
+}
+
