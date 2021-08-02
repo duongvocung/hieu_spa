@@ -141,7 +141,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="category-top">
-                        <div class="owl-carousel icon-categorys">
+                        <div class="owl-carousel icon-categorys owl-theme">
                             <div class="item">
                                 <span class="icon-curl icon__category-top"></span>
                                 <div class="content__item-category"> Beauty Salon</div>
@@ -190,7 +190,7 @@
     <!--    library-->
     <div class="wapper__slider container">
         <div class="row">
-            <div class="slider-library owl-carousel">
+            <div class="slider-library owl-carousel owl-theme">
                 <div class="item">
                     <div class="wapper__silder-block1">
 
@@ -556,7 +556,7 @@
 
                 </div>
                 <!--                middle-->
-                <div class="wapper__element icon-black col-md-4">
+                <div class="wapper__element icon-back col-md-4">
                     <div class="border__element ">
                         <div class="square_little-element">
                             <span class="icon-survey"></span>
@@ -2745,15 +2745,15 @@
     <section class="app-phone">
         <div class="container">
             <div class="row row_app-phone">
-                <div class="wapper__app-phone">
-                    <div class="col-md-6">
+<!--                <div class="wapper__app-phone">-->
+                    <div class="col-md-6 lef__app-phone">
                         <img src="image/smartphone.png" alt="">
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 right__app-phone">
                         <div class="element_right_app-phone">
                             <div class="content-text_app-phone">
-                                <h1>START USING</br>
-                                    <p>RETREAT CLUB</p> TODAY!
+                                <h1>START USING
+                                    <p>RETREAT CLUB <span>TODAY!</span></p>
                                 </h1>
                             </div>
                             <div class="text-app-title">
@@ -2769,7 +2769,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+<!--                </div>-->
             </div>
         </div>
     </section>
@@ -2898,7 +2898,18 @@
                 </div>
             </div>
         </div>
+
     </footer>
+<!--    under-footer-->
+    <div class="under-footer" >
+        <div class="container">
+            <div class="row">
+                <p class="footer-middle">© Copyright 2020  Design by
+                    <a href="">netbasejsc.com</a>
+                    |  All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -2951,8 +2962,15 @@
         nav: true,
         navText: ['<span class="icon-previous"></span>', '<span class="icon-next-1"></span>'],
         responsive: {
-            1024: {items: 3,},
-            768: {items: 2,},
+            1024: {items: 3,
+            dots:false},
+            768:
+                {items: 2,
+                    nav:false,
+                    dots:true,
+
+
+            },
             480: {items: 1,},
         }
     });

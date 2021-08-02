@@ -1,11 +1,11 @@
 .footer{
 
-  padding-top: 65px;
+  padding-top: 64px;
   color: #ffff;
   background: #2b3840;
   padding-bottom: 60px;
   .header-footer{
-    margin-top: -12px;
+    margin-top: 5px;
     padding-bottom: 55px;
     border-bottom: 1px solid #414c53;
     .footer-logo{
@@ -15,10 +15,13 @@
     .newsletter{
       margin-left: 30px;
       margin-top: 24px;
+      h1{
+        font-size: 30px;
+      }
     }
     .footer-input{
       margin-top: 18px;
-      margin-left: -4px;
+      margin-left: -12px;
       input{
         width: 330px;
         height: 50px;
@@ -177,6 +180,8 @@
     text-align: center;
   }
   .footer-input{
+    margin-top: 18px;
+    margin-left: -11px;
     width: 100%;
     input{
       width: auto;
@@ -200,6 +205,28 @@
     }
     button{
       margin-top: 10px;
+    }
+  }
+}
+
+//under-footer
+.under-footer{
+  color: rgb(196,196,196);
+  background-color: rgb(23,23,23);
+  padding-top: 28px;
+  padding-bottom: 28px;
+  .footer-middle, p{
+    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    a{
+      color: rgb(252,136,123);
     }
   }
 }

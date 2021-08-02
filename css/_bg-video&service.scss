@@ -28,6 +28,7 @@
 }
 //titile under bg-video
 .text__under-bg-video{
+  margin-top: 79px;
   h2{
     color: #2b3840;
     font-size: 34px;
@@ -42,6 +43,8 @@
     padding: 0px 241px;
   }
 }
+
+
 //serviece
 .element_service{
   margin-top: 88px;
@@ -110,7 +113,7 @@
   background-image: url(../image/service-line-.jpg);
   left: -50px;
   top: 15px;
-  z-index: 100;
+  z-index: 1;
 }
 .icon-back::after{
   position: absolute;
@@ -120,5 +123,30 @@
   right: -80px;
   top: 15px;
   background-image: url(../image/service-line-.jpg);
-  z-index: 100;
+  z-index: 1;
 }
+
+//reponsive-bg-video
+@media (min-width: 768px) and (max-width: 991px){
+  .text__bg-video{
+    display: none;
+  }
+  .bg-video{
+    height: 400px!important;
+  }
+  .content__bg-video{
+    bottom: 72%!important;
+    left: 45%!important;
+  }
+  .main__bg-video{
+    margin-top: 53px;
+  }
+}
+
+//reponsive-service
+@media (min-width: 768px) and (max-width: 991px){
+  .text-content__under-bg-video{
+    padding: 0!important;
+  }
+}
+
