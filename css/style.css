@@ -638,7 +638,7 @@ html, body {
   content: "";
   width: 128px;
   height: 13px;
-  background-image: url(../image/service-line-.jpg);
+  background-image: url(../image/Aroww.png);
   left: -50px;
   top: 15px;
   z-index: 1; }
@@ -650,8 +650,22 @@ html, body {
   height: 13px;
   right: -80px;
   top: 15px;
-  background-image: url(../image/service-line-.jpg);
+  background-image: url(../image/Aroww.png);
   z-index: 1; }
+
+#headerPopup iframe {
+  width: 100%;
+  margin: 0 auto; }
+
+#video {
+  top: 22%;
+  left: 29%;
+  z-index: 10; }
+
+#close {
+  top: 12%;
+  left: 70%;
+  display: none; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .text__bg-video {
@@ -669,6 +683,9 @@ html, body {
 @media (min-width: 768px) and (max-width: 991px) {
   .text-content__under-bg-video {
     padding: 0 !important; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .border__element {
+    width: 290px !important; } }
 .place-genarel {
   background: url("../image/places.jpg");
   width: 100%;
@@ -768,6 +785,7 @@ html, body {
           border-radius: 17px;
           font-size: 75%;
           font-weight: 700;
+          line-height: 21px;
           color: #fff;
           display: inline;
           white-space: nowrap;
@@ -872,18 +890,14 @@ html, body {
           padding: 3px 29px;
           line-height: 43px;
           height: 50px; }
-          .place-genarel .main-place .wapper__place-image .wapeer__place-under .wapper__silder-block1 .wapper-fotter .wapper__silder-heart span {
-            height: 35px;
-            width: 35px;
+          .place-genarel .main-place .wapper__place-image .wapeer__place-under .wapper__silder-block1 .wapper-fotter .wapper__silder-heart span i {
+            height: 35px !important;
+            width: 35px !important;
             border: solid 1px #e5e5e5;
-            border-radius: 50px;
-            margin-top: 3px; }
-            .place-genarel .main-place .wapper__place-image .wapeer__place-under .wapper__silder-block1 .wapper-fotter .wapper__silder-heart span i {
-              position: absolute;
-              left: 309px;
-              margin-top: 10px; }
-              .place-genarel .main-place .wapper__place-image .wapeer__place-under .wapper__silder-block1 .wapper-fotter .wapper__silder-heart span i:hover {
-                color: #fc887b; }
+            border-radius: 50px !important;
+            padding: 25% !important; }
+            .place-genarel .main-place .wapper__place-image .wapeer__place-under .wapper__silder-block1 .wapper-fotter .wapper__silder-heart span i:hover {
+              color: #fc887b; }
       .place-genarel .main-place .wapper__place-image .wapeer__place-under .wapper__silder-block1 .wapper__silder-img {
         position: relative; }
         .place-genarel .main-place .wapper__place-image .wapeer__place-under .wapper__silder-block1 .wapper__silder-img img {
@@ -989,6 +1003,12 @@ div#home {
   .ct .img-need-margin {
     margin-top: 44px; }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav-tabs {
+    margin-left: 184px !important; } }
+.wapper__place-image {
+  height: 100%; }
+
 .bg__image-retreat {
   background-image: url("../image/rau-ria_101037347.jpg");
   width: 100%;
@@ -1015,8 +1035,7 @@ div#home {
       color: #2b3840;
       height: 50px;
       width: 186px;
-      padding: 0 28px;
-      padding-top: 17px; }
+      padding: 0 28px; }
 
 #slide-wipper {
   margin-bottom: 20px; }
@@ -1216,48 +1235,46 @@ div#home {
     .midle-footer .footer-tittle-main::after {
       width: 30px;
       height: 5px;
-      background: url(../image/icon-line.png);
+      background: url(../image/Tittle--Line-.jpg);
       content: "";
       position: absolute;
       top: 47px; }
-  .midle-footer .footer-tittle {
-    margin-left: 24px; }
-    .midle-footer .footer-tittle .footer-tittle-text {
-      letter-spacing: 1px; }
-    .midle-footer .footer-tittle .footer-link {
-      padding-bottom: 26px;
-      margin-left: -13px;
-      margin-top: -2px;
+  .midle-footer .footer-tittle .footer-tittle-text {
+    letter-spacing: 1px; }
+  .midle-footer .footer-tittle .footer-link {
+    padding-bottom: 26px;
+    margin-left: -13px;
+    margin-top: -2px;
+    color: #fc887b; }
+    .midle-footer .footer-tittle .footer-link a:hover {
       color: #fc887b; }
-      .midle-footer .footer-tittle .footer-link a:hover {
-        color: #fc887b; }
-    .midle-footer .footer-tittle .footer-tittle-icon ul {
-      padding-left: 0;
-      list-style-type: none; }
-      .midle-footer .footer-tittle .footer-tittle-icon ul li {
+  .midle-footer .footer-tittle .footer-tittle-icon ul {
+    padding-left: 0;
+    list-style-type: none; }
+    .midle-footer .footer-tittle .footer-tittle-icon ul li {
+      display: inline-block;
+      padding: 0 10px 0 0;
+      margin-bottom: 0; }
+      .midle-footer .footer-tittle .footer-tittle-icon ul li a {
         display: inline-block;
-        padding: 0 10px 0 0;
-        margin-bottom: 0; }
-        .midle-footer .footer-tittle .footer-tittle-icon ul li a {
-          display: inline-block;
-          background: #4867aa !important;
-          border-color: #4867aa !important;
-          width: 40px;
-          height: 40px;
-          line-height: 44px;
-          color: #fff !important;
-          border-radius: 5px;
-          -webkit-border-radius: 5px;
-          border: 1px solid #ccc;
-          padding-top: 0px;
-          text-align: center; }
-          .midle-footer .footer-tittle .footer-tittle-icon ul li a i {
-            font-size: 20px; }
+        background: #4867aa !important;
+        border-color: #4867aa !important;
+        width: 40px;
+        height: 40px;
+        line-height: 44px;
+        color: #fff !important;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: 1px solid #ccc;
+        padding-top: 0px;
+        text-align: center; }
+        .midle-footer .footer-tittle .footer-tittle-icon ul li a i {
+          font-size: 20px; }
   .midle-footer .footer-tittle_1 {
     margin-left: 42px; }
     .midle-footer .footer-tittle_1 .footer-tittle-list {
-      padding-top: 17px;
-      margin-left: -3px; }
+      padding-top: 21px;
+      margin-left: 30px; }
       .midle-footer .footer-tittle_1 .footer-tittle-list ul {
         margin-top: -18px; }
         .midle-footer .footer-tittle_1 .footer-tittle-list ul li {
@@ -1270,7 +1287,7 @@ div#home {
   .midle-footer .footer-tittle_2 {
     margin-left: 37px; }
     .midle-footer .footer-tittle_2 .footer-tittle-list {
-      margin-left: -3px; }
+      margin-left: 37px; }
       .midle-footer .footer-tittle_2 .footer-tittle-list ul li {
         padding-bottom: 15px;
         font-size: 15px; }

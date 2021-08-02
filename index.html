@@ -518,11 +518,21 @@
     <!--    background video-->
     <div class="main__bg-video">
         <div class="bg-video"></div>
-        <div class="content__bg-video">
-            <span class="icon-play-button"></span>
+        <div class="content__bg-video"  >
+            <span class="icon-play-button" id="play"><a href=""></a></span>
             <div class="text__bg-video">Video Player</div>
         </div>
+
+        <div id="video">
+            <span id="frame"></span>
+            <a href="#"><h1 id="close">X</h1></a>
+        </div>
     </div>
+
+    <script>
+
+    </script>
+
     <!--    titile under bg-video-->
     <section>
         <div class="tittle text__under-bg-video container">
@@ -2935,6 +2945,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ 
 <script type="text/javascript">
     $('.icon-categorys').owlCarousel({
         loop: false,
@@ -2971,7 +2982,8 @@
 
 
             },
-            480: {items: 1,},
+            480: {items: 1,
+            nav:false},
         }
     });
 
@@ -3002,6 +3014,8 @@
         $('.ct').hide();
         $('#hair').show();
     })
+
+
 </script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
@@ -3035,6 +3049,26 @@
             swiper: swiper,
         },
 
+    });
+    $(document).ready(function(){
+        $('#play').click(function(){
+            $('#frame').html('<iframe width="640" height="360" src="https://www.youtube.com/embed/VNtYWDpdQ1w?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl" frameborder="0" allowfullscreen id="video"></iframe>');
+            $('#video').css('display', 'block');
+            $('#video').css('position', 'fixed');
+            $('#close').css('position', 'fixed');
+            $('#close').css('display', 'block');
+            $('#play').css('opacity', '0.5');
+        });
+    });
+
+    $(document).ready(function(){
+        $('#close').click(function(){
+            $('#frame').html('');
+            $('#play').data('clicked', 'no');
+            $('#video').css('display', 'none');
+            $('#close').css('display', 'none');
+            $('#play').css('opacity', '1');
+        });
     });
 </script>
 </body>

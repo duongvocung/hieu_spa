@@ -110,7 +110,7 @@
   content:"";
   width: 128px;
   height: 13px;
-  background-image: url(../image/service-line-.jpg);
+  background-image: url(../image/Aroww.png);
   left: -50px;
   top: 15px;
   z-index: 1;
@@ -122,10 +122,24 @@
   height: 13px;
   right: -80px;
   top: 15px;
-  background-image: url(../image/service-line-.jpg);
+  background-image: url(../image/Aroww.png);
   z-index: 1;
 }
-
+//click-video
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+#video{
+  top: 22%;
+  left: 29%;
+  z-index: 10;
+}
+#close{
+  top: 12%;
+  left: 70%;
+  display: none;
+}
 //reponsive-bg-video
 @media (min-width: 768px) and (max-width: 991px){
   .text__bg-video{
@@ -149,4 +163,8 @@
     padding: 0!important;
   }
 }
-
+@media (min-width: 992px) and (max-width: 1199px){
+  .border__element{
+    width: 290px!important;
+  }
+}
