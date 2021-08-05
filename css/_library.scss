@@ -25,7 +25,6 @@
 
           .popular {
             text-align: center;
-
             border-radius: 12px;
             font-size: 12px;
             font-weight: 500;
@@ -34,10 +33,7 @@
             justify-content: center;
             width: 81px;
             height: 5px;
-
           }
-
-
         }
         .price {
           background-color: #fc887b;
@@ -48,9 +44,7 @@
           bottom: 19px;
           width: 65px;
           text-align: center;
-
           p{
-
             font-size: 13px;
             font-weight: 700;
             line-height: 28px;
@@ -70,7 +64,6 @@
           right: 11px;
           .star-rate{
             font-size: 18px;
-
           }
         }
         }
@@ -110,9 +103,6 @@
         border-bottom: 1px solid #e5e5e5;
         border-top: none;
         padding: 15px 30px;
-
-
-
         .wapper__silder-content {
           font-family: Lato;
           font-weight: 400;
@@ -136,7 +126,6 @@
             .icon__content--footer {
               margin-left: 12px;
             }
-
             button {
               padding: 3px 20px;
               border-radius: 16px;
@@ -288,4 +277,131 @@
   .text-content__under-bg-video{
     padding: 0px 139px!important;
   }
+
+  //library
+  .wapper__silder-content{
+    h3{
+      font-size: 24px!important;
+    }
+    p{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: left;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+    }
+  }
+  .wapper__siler-content-footer{
+    .icon__content--footer{
+      margin-left: 3px!important;
+    }
+    button{
+      padding: 3px 10px!important;
+      border-radius: 15px!important;
+    }
+  }
+  .footer-tittle-main{
+    h4{
+      font-size: 18px!important;
+    }
+  }
+  .footer-link{
+    a{
+      margin-left: 1px;
+    }
+  }
+  .footer-icon-phone{
+    font-size: 16px!important;
+    i{
+      margin-right: 8px!important;
+    }
+  }
+  .footer-input{
+    input{
+      width: 240px!important;
+    }
+    button{
+      margin-left: 0!important;
+      width: 168px!important;
+    }
+  }
+  .element_right_app-phone{
+    margin-top: 108px!important;
+  }
+  .news-text{
+    margin-left: -184px!important;
+  }
 }
+@media (min-width: 768px) and (max-width: 991px){
+  .border__element{
+    width: 210px!important;
+    height: 343px!important;
+  }
+  .nav-tabs{
+    margin-left: 79px!important;
+  }
+  .place-genarel{
+    height: 1990px!important;
+  }
+  .image-3-place-6image{
+    padding-top: 45px;
+  }
+  .news-text {
+    margin-left: -140px!important;
+    margin-top: -2px!important;
+  }
+  .bg__image-retreat{
+    height: 400px!important;
+  }
+  .wapper__bg-retreat {
+    padding-top: 69px!important;
+  }
+  .element_right_app-phone {
+    margin-top: 25px!important;
+  }
+  .newsletter h1 {
+    font-size: 20px!important;
+  }
+  .newsletter {
+    margin-left: 14px!important;
+    margin-top: 33px!important;
+  }
+  .footer-input input {
+    width: 200px!important;
+  }
+  .footer .header-footer .footer-input button {
+    margin-left: 0!important;
+    width: 126px!important;
+  }
+  .footer-tittle-main{
+    h4{
+      font-size: 18px!important;
+    }
+  }
+  .footer-tittle_2 {
+   margin-left: 0!important;
+  }
+  .midle-footer .footer-tittle_1 {
+    margin-left: 0!important;
+  }
+  .footer-icon-phone p {
+    margin-left: 0!important;
+    font-size: 18px!important;
+    margin-top: 9px!important;
+  }
+  .footer-icon-email {
+    margin-top: -20px!important;
+  }
+  .footer-icon-email p {
+    margin-left: 2px!important;
+  }
+  .footer-link {
+    margin-left: 2px!important;
+  }
+  .footer-tittle-icon ul li a {
+    width: 30px!important;
+    height: 30px!important;
+    line-height: 30px!important;
+  }
+  }
