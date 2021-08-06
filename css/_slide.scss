@@ -17,7 +17,6 @@
 
   .content-slide-show {
     width: 100%;
-
     color: white;
     text-align: left;
     text-transform: uppercase;
@@ -27,7 +26,7 @@
 
     h3 {
       font-size: 30px;
-      font-weight: 700;
+      font-weight: 800;
     }
 
     h2 {
@@ -102,7 +101,7 @@
        font-size: 35px;
        padding: 0;
        margin-top: -15px;
-
+       font-family: Playfair Display;
      }
      .content__slideshow-block-sreach{
        margin-left: 50px;
@@ -116,12 +115,13 @@
 @media (min-width: 768px) and (max-width: 991px){
  .slide-show{
    .content-slide-show{
-     margin-top: 130px;
+     margin-top: 80px;
      h3{
        text-align: center;
        font-size: 23px;
        font-weight: 700;
        font-family: Playfair Display;
+       padding-bottom: 25px;
      }
      h2{
        text-align: center;
@@ -130,7 +130,8 @@
        padding: 0;
        margin-top: -15px;
        line-height: 42px;
-
+       font-family: Playfair Display;
+       padding-bottom: 25px;
      }
      .content__slideshow-block-sreach {
        input{
@@ -180,7 +181,7 @@
         margin-top: 25px;
         line-height: 45px;
         margin-bottom: 30px;
-
+        font-family: Playfair Display !important;
       }
       .content__slideshow-block-sreach {
         position: absolute;

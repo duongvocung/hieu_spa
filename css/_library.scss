@@ -60,7 +60,6 @@
           float: left;
           height: 46px;
           position: absolute;
-          top: 198px;
           right: 11px;
           .star-rate{
             font-size: 18px;
@@ -151,17 +150,20 @@
             border: solid 1px #e5e5e5;
             border-radius: 50px;
             padding: 25%;
-          }
             &:hover{
               color: #fc887b;
             }
-
+          }
         }
       }
 
     }
-
-
+.wapper__silder-heart>p:hover{
+  color: #fc887b;
+}
+.wapper__siler-content-footer>button{
+  background-color: white;
+}
 .wapper-fotter{
   border: 1px solid #e5e5e5;
   &:hover{
@@ -199,6 +201,8 @@
   border: 1px solid #e5e5e5;
   border-radius: 25px;
   padding-top: 5px;
+  font-weight: 600;
+  opacity: .5;
   &:hover{
     background-color: #fc887b;
     color: white;
@@ -220,7 +224,15 @@
     color: white;
   }
 }
-
+.owl-prev:hover{
+  background-color: #fc887b!important;
+}
+.rate-library{
+  top: 213px!important;
+}
+.icon-tags{
+  padding-right: 9px!important;
+}
 @media (min-width: 768px) and (max-width: 991px){
   .owl-dots{
     margin-top: 30px!important;
@@ -299,6 +311,7 @@
     button{
       padding: 3px 10px!important;
       border-radius: 15px!important;
+      background-color: white!important;
     }
   }
   .footer-tittle-main{

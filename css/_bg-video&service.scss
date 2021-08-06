@@ -65,6 +65,9 @@
           color: white;
           margin: -50px 0 32px;
           position: relative;
+          &:hover{
+            background-color: #fc887b;
+          }
           span{
             font-size: 47px;
             position: absolute;
@@ -83,6 +86,7 @@
           position: absolute;
           text-align: center;
           line-height: 30px;
+          color: white;
         }
         .content__element{
           text-align: left;
@@ -110,9 +114,9 @@
   content:"";
   width: 128px;
   height: 13px;
-  background-image: url(../image/Aroww.png);
-  left: -50px;
-  top: 15px;
+  background-image: url(../image/arrow-.png);
+  left: -65px;
+  top: 46px;
   z-index: 1;
 }
 .icon-back::after{
@@ -120,8 +124,8 @@
   content:"";
   width: 128px;
   height: 13px;
-  right: -80px;
-  top: 15px;
+  right: -62px;
+  top: 47px;
   background-image: url(../image/Aroww.png);
   z-index: 1;
 }
@@ -166,5 +170,10 @@
 @media (min-width: 992px) and (max-width: 1199px){
   .border__element{
     width: 290px!important;
+  }
+}
+@media (max-width: 767px){
+  .border__element{
+    width: 100%!important;
   }
 }

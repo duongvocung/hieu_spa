@@ -25,7 +25,8 @@ $('.slider-library').owlCarousel({
     navText: ['<span class="icon-previous"></span>', '<span class="icon-next-1"></span>'],
     responsive: {
         1024: {items: 3,
-            dots:false},
+            dots:false
+        },
         768:
             {items: 2,
                 nav:false,

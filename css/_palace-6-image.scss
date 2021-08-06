@@ -17,9 +17,10 @@
       }
       .nav-link{
         &:hover{
-          border: none;
+          border:1px solid rgba(255,255,255,.0);
         }
         color: white;
+        border-radius: 0px;
         &:active {
           background-color: #fc887b;
           border:none;
@@ -464,10 +465,10 @@
     display: none;
   }
   .square_little-element{
-    margin: -50px 74px 32px!important;
+    margin: -50px 97px 32px!important;
   }
   .number__element{
-    left: 151px!important;
+    left: 175px!important;
   }
   .content__element{
     text-align: center!important;

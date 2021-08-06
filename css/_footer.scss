@@ -9,7 +9,7 @@
     padding-bottom: 55px;
     border-bottom: 1px solid #414c53;
     .footer-logo{
-      margin-left: 22px;
+      margin-left: -10px;
       margin-top: 7px;
     }
     .newsletter{
@@ -65,12 +65,12 @@
     }
     .footer-link{
       padding-bottom: 26px;
-      margin-left: -13px;
       margin-top: -2px;
       color:#fc887b ;
       a{
+        color: #fc887b;
         &:hover{
-          color: #fc887b;
+          text-decoration: none;
         }
       }
     }
@@ -226,6 +226,28 @@
     font-size: 14px;
     a{
       color: rgb(252,136,123);
+    }
+  }
+}
+
+.footer-input>icon-foter{
+  padding-left: 15px;
+}
+@media (max-width: 767px){
+  .footer-tittle_1{
+    margin-left: 0!important;
+  }
+  .footer-tittle_2{
+    margin-left: 0!important;
+  }
+  .footer-input{
+    margin-left: -2px!important;
+    input{
+      width: 237px!important;
+    }
+    button{
+      margin-left: 0px!important;
+      width: 145px!important;
     }
   }
 }
