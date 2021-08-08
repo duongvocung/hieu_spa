@@ -203,11 +203,8 @@
   padding-top: 5px;
   font-weight: 600;
   opacity: .5;
-  &:hover{
-    background-color: #fc887b;
-    color: white;
-  }
 }
+
 .icon-previous:before {
   content: "\e911";
   position: absolute;
@@ -220,13 +217,15 @@
   border-radius: 25px;
   padding-top: 5px;
   &:hover{
-    background-color: #fc887b;
-    color: white;
+    background-color: #fc887b!important;
+    color: red!important;
   }
 }
 .owl-prev:hover{
   background-color: #fc887b!important;
 }
+
+
 .rate-library{
   top: 213px!important;
 }

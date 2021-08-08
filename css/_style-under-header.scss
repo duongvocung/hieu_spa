@@ -1,58 +1,68 @@
 /*under-header*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  z-index: 999;
+}
+#stickyelement{
+  .under-header {
+    .under-header1 {
+      .logo {
+        img {
+          width: 170px;
+          height: 70px;
+          margin: -14px;
+          margin-left: -1px;
+          margin-top: 13px;
+        }
 
-.under-header {
-  .under-header1 {
-    .logo {
-      img {
-        width: 170px;
-        height: 70px;
-        margin: -14px;
-        margin-left: -1px;
-        margin-top: 13px;
       }
 
-    }
+      .menu {
+        position: relative;
 
-    .menu {
-      position: relative;
+        ul {
+          position: absolute;
+          left: 178px;
+          top: 25px;
+          font-weight: 400;
+          font-size: 16px;
 
-      ul {
-        position: absolute;
-        left: 178px;
-        top: 25px;
-        font-weight: 400;
-        font-size: 16px;
+          li {
+            list-style-type: none;
+            display: inline;
+            margin-left: 31px;
 
-        li {
-          list-style-type: none;
-          display: inline;
-          margin-left: 31px;
+            a {
+              color: black;
+              font-size: 16px;
+              line-height: 32px;
+              font-weight: normal;
+              text-decoration: none;
+            }
+          }
 
-          a {
-            color: black;
-            font-size: 16px;
-            line-height: 32px;
-            font-weight: normal;
-            text-decoration: none;
+          #button-menu {
+            background-color: #fc887b;
+            color: white;
+            text-align: center;
+            width: 150px;
+            height: 48px;
+            line-height: 48px;
+            margin-left: 30px;
+            border: none;
           }
         }
-
-        #button-menu {
-          background-color: #fc887b;
-          color: white;
-          text-align: center;
-          width: 150px;
-          height: 48px;
-          line-height: 48px;
-          margin-left: 30px;
-          border: none;
-        }
       }
+
     }
 
   }
-
 }
+
 
 
 //style nav-mobie
