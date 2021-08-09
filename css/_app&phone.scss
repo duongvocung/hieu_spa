@@ -63,4 +63,11 @@
 
   }
 
-
+@media (max-width: 767px) {
+  .app-phone{
+    background-color: #fff;
+    width: 100%;
+    background-image: inherit;
+    padding-bottom: 30px;
+  }
+}

@@ -171,22 +171,25 @@
         text-align: center;
         font-size: 23px;
         font-weight: 700;
-        font-family: Playfair Display;
+        font-family: "Playfair Display", Sans-serif;
       }
       h2{
         text-align: center;
         font-weight: 400;
-        font-size: 36px;
+        font-size: 25px;
         padding: 0;
         margin-top: 25px;
-        line-height: 45px;
+        line-height: 35px;
         margin-bottom: 30px;
-        font-family: Playfair Display !important;
+        font-family: "Playfair Display", Sans-serif;
       }
       .content__slideshow-block-sreach {
         position: absolute;
         width: 100%;
-        right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
         padding: 0;
         text-align: inherit!important;
         input{
@@ -194,10 +197,13 @@
           border-right: none;
           border-bottom: 1px solid #ccc;
           width: 100%;
+          padding:0px;
         }
         select{
           border-bottom: 1px solid #ccc;
           margin-left: 0;
+          padding:0px;
+          background-position: top 24px right 15px;
           width: 100%;
         }
         button{
@@ -206,7 +212,7 @@
         }
 
         background: #fff;
-        max-width: 425px;
+        max-width:300px;
         margin: auto;
         padding: 25px 25px 25px 25px;
         display: inherit;
@@ -214,5 +220,4 @@
       }
     }
   }
-
 }

@@ -1,8 +1,8 @@
 /*under-header*/
 .sticky {
   position: fixed;
-  top: 0;
   width: 100%;
+  top: 0;
   background-color: white;
   height: 100px;
   z-index: 999;
@@ -156,14 +156,14 @@
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
   .menu {
     display: none;
   }
   .top-mobi {
     display: block;
     margin-top: 18px;
-    margin-left: 358px;
+    float: right;
   }
   .logo {
     img {
@@ -174,6 +174,8 @@
     margin-top: -22px!important;
   }
 }
-
-
-
+@media (min-width: 325px) and (max-width: 424px){
+   .rate-library{
+     top: 206px !important;
+   }
+}

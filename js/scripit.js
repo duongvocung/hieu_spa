@@ -41,37 +41,6 @@ $('.slider-library').owlCarousel({
 
 
 
-$('.ct').hide()
-$('#all').show();
-$('.all').click(function () {
-    $('.ct').hide();
-    $('#all').show();
-})
-
-$('.gym').click(function () {
-    $('.ct').hide();
-    $('#gym').show();
-})
-$('.spa').click(function () {
-    $('.ct').hide();
-    $('#spa').show();
-})
-$('.beauty').click(function () {
-    $('.ct').hide();
-    $('#beauty').show();
-})
-$('.massage').click(function () {
-    $('.ct').hide();
-    $('#massage').show();
-})
-$('.hair').click(function () {
-    $('.ct').hide();
-    $('#hair').show();
-})
-
-
-
-
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 4,
     slidesPerView: 4,
@@ -112,9 +81,56 @@ $(document).ready(function(){
         $('#close').css('display', 'block');
         $('#play').css('opacity', '0.5');
     });
+    $('.ct').hide()
+    $('#all').show();
+
+    $('.all').click(function () {
+        $('.ct').hide();
+        $('#all').show();
+    })
+
+    $('.gym').click(function () {
+        $('.ct').hide();
+        $('#gym').show();
+    })
+    $('.spa').click(function () {
+        $('.ct').hide();
+        $('#spa').show();
+    })
+    $('.beauty').click(function () {
+        $('.ct').hide();
+        $('#beauty').show();
+    })
+    $('.massage').click(function () {
+        $('.ct').hide();
+        $('#massage').show();
+    })
+    $('.hair').click(function () {
+        $('.ct').hide();
+        $('#hair').show();
+    })
+
+
+
+
 });
 
 $(document).ready(function(){
+    window.onscroll = function() {myFunction()
+    };
+
+    var navbar = document.getElementById("stickyelement");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+
+
     $('#close').click(function(){
         $('#frame').html('');
         $('#play').data('clicked', 'no');
@@ -125,7 +141,9 @@ $(document).ready(function(){
 });
 
 // sticky
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {myFunction()
+alert('123')
+};
 
 var navbar = document.getElementById("stickyelement");
 var sticky = navbar.offsetTop;

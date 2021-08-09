@@ -84,8 +84,8 @@
           margin-bottom: 0;
           a{
             display: inline-block;
-            background: #4867aa !important;
-            border-color: #4867aa !important;
+            background: #4867aa;
+            border-color: #4867aa!important;
             width: 40px;
             height: 40px;
             line-height: 44px;
@@ -172,6 +172,14 @@
       }
     }
   }
+}
+.twiter{
+  background-color: #1da1f2!important;
+  border-color: #1da1f2!important;
+}
+.linkedin{
+  background-color: #0177b5!important;
+  border-color: #0177b5!important;
 }
 
 @media (max-width: 1024px){
